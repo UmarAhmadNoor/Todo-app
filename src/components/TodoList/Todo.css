@@ -1,0 +1,118 @@
+.maincontainer
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    color: white;
+    /* background-color: antiquewhite; */
+}
+
+.todoheading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: white;
+     width: 100%;
+    border-radius: 10px;
+}
+.inputcont
+{
+  width: 500px;
+  
+}
+.box {
+    width: 100%;
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+    border: 3px solid green;
+}
+.parent
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+    .btnstyle {
+        padding: 10px 25px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: green;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .btnstyle:hover {
+        background-color: #2980b9;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+        transform: translateY(-3px);
+    }
+    
+    .btnstyle:active {
+        background-color: green;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        transform: translateY(2px);
+    }
+    .butnbox
+    {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 50px;   
+    }
+   .list
+   {
+    background-color: rgb(18, 18, 18);
+   width: 600px;
+   padding: 5px;
+   padding-bottom: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+   }
+
+   .taskdisplay-style
+   {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 2%;
+    gap: 60px;
+   }
+   .btnstyle1
+   {
+    padding-left: 3%;
+    padding-right: 3%;
+    /* padding-top: 1%; */
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(206, 0, 0);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+   }
+   .btnstyle1:hover {
+    background-color: #2980b9;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+#deleteall
+{
+    background-color: red;
+}
