@@ -3,7 +3,7 @@ import "./Todo.css";
 
 const Todo = () => {
   
-  const [todo, settodo] = useState("Hello");
+  const [todo, settodo] = useState(" ");
   const [maintask, setmaintask] = useState([]);
 
   const handlesub = (e) =>
